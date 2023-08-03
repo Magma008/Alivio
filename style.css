@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first_color {
+    color: #01996d;
+}
+/* -------------------------------------------------- */
+/* Header Section */
+.custom_button1 {
+    background: #01996d;
+    padding: 9px 25px;
+    border: 1px solid #01996d;
+    border-radius: 5px;
+    color: white;
+    transition: all .3s linear;
+}
+
+.custom_button1:hover {
+    background: transparent;
+    color: #01996d;
+}
+
+.header_body {
+    background: url("Images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.fill_white {
+    fill: #fff;
+}
+
+/* ---------------------------------------------------- */
+/* Body Section */
+.card_title {
+    position: relative;
+}
+
+.card_title h1 {
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+
+.custom_card1 {
+    transition: all .3s linear;
+}
+
+.custom_card1:active {
+    padding-top: 50px;
+}
+
+.custom_card2 {
+    padding-top: 50px;
+    transition: all .3s linear;
+}
+
+.custom_card2:active {
+    padding-top: 0;
+}
+
+/* ------------------------------------------ */
+/* Review Section */
+.review {
+    background: #245852;
+}
+
+.parent_play {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+/* -------------------------------------------- */
+/* Footer Section */
+.footer {
+    background: #245852;
+}
+
+.glowing_link {
+    color: white;
+    transition: all .3s linear;
+}
+
+.glowing_link:hover {
+    text-shadow: 1px 1px 5px cyan;
+}

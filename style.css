@@ -50,20 +50,20 @@
 
 .custom_card1 {
     transition: all .3s linear;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 .custom_card1:active {
-    transform: translateY(20px);
+    transform: translateY(15px);
 }
 
 .custom_card2 {
-    transform: translateY(20px);
+    transform: translateY(15px);
     transition: all .3s linear;
 }
 
 .custom_card2:active {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 /* ------------------------------------------ */
